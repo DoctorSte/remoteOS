@@ -9,9 +9,9 @@ export default function Home() {
     <>
       <Header />
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t-2 items-center px-10 lg:px-48">
-        <div className="mt-20 lg:mt-0">
-          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t-2 items-center px-10 py-0 lg:p-48 lg:py-20">
+        <div className="mt-20 lg:mt-0 text-center lg:text-left ">
+          <h1 className="text-3xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-green-300 via-blue-500 to-purple-600">
             The complete toolkit to manage remote-first companies that scale
             fast
           </h1>
