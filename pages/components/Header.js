@@ -11,13 +11,13 @@ export default function Navbar() {
             </h1>
             <div className="hidden md:flex justify-around space-x-4">
               <a href="#" className="hover:text-indigo-600 text-gray-700">
-                Home
+                Features
               </a>
               <a href="#" className="hover:text-indigo-600 text-gray-700">
                 About
               </a>
               <a href="#" className="hover:text-indigo-600 text-gray-700">
-                Service
+                Join our Discord
               </a>
               <a href="#" className="hover:text-indigo-600 text-gray-700">
                 Contact
