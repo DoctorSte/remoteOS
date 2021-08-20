@@ -2,14 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import "tailwindcss/tailwind.css";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      <section className="grid grid-cols-2 gap-4 border-t-2 items-center px-48">
-        <div className="">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t-2 items-center px-10 lg:px-48">
+        <div className="mt-20 lg:mt-0">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
             The complete toolkit to manage remote-first companies that scale
             fast
@@ -46,6 +47,7 @@ export default function Home() {
           />
         </div>
       </section>
+      <Hero />
     </>
   );
 }
