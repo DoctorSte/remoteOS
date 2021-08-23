@@ -1,19 +1,33 @@
 import "tailwindcss/tailwind.css";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
       <div className="flex justify-center items-center w-full p-7 gap-6">
-        <a href="#" className="hover:text-indigo-600 text-gray-700">
-          Features
-        </a>
-        <a href="#" className="hover:text-indigo-600 text-gray-700">
-          About
-        </a>
-        <a href="#" className="hover:text-indigo-600 text-gray-700">
-          Join our Discord
-        </a>
-        <a href="#" className="hover:text-indigo-600 text-gray-700">
+        <Link href="/features">
+          <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
+            Features
+          </div>
+        </Link>
+        <Link href="/about">
+          <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
+            About
+          </div>
+        </Link>
+        <Link href="https://discord.gg/wGbmTBUx" passHref={true}>
+          <a
+            className="hover:text-indigo-600 text-gray-700 cursor-pointer"
+            target="_blank"
+          >
+            Join our Discord
+          </a>
+        </Link>
+        <a
+          href="mailto:ste@weareloot.com"
+          className="hover:text-indigo-600 text-gray-700"
+          target="_blank"
+        >
           Contact
         </a>
       </div>

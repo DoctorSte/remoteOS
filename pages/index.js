@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Card from "./components/card";
 import Footer from "./components/footer";
 import Form from "./components/form";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -71,7 +72,7 @@ export default function Home() {
               Manage your remote team and scale fast using RemoteOS.
             </p>
             <button className="mt-4 inline-flex px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all">
-              Sign up
+              <Link href="/signUp">Sign up</Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 pl-2"
@@ -86,7 +87,7 @@ export default function Home() {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 />
               </svg>
-            </button>
+            </button>{" "}
           </div>
         </div>
       </main>

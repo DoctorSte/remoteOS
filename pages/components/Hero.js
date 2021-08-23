@@ -1,5 +1,6 @@
 import "tailwindcss/tailwind.css";
 import Image from "next/dist/client/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -17,7 +18,7 @@ export default function Hero() {
             Centralised Overview, Decentralised Actions & Decisions{" "}
           </p>
           <button className="mt-4 inline-flex px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all">
-            Sign up
+            <Link href="/signUp">Sign up</Link>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 pl-2"

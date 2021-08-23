@@ -21,24 +21,34 @@ export default function Navbar() {
                   About
                 </div>
               </Link>
-              <a href="#" className="hover:text-indigo-600 text-gray-700">
-                Join our Discord
-              </a>
-              <a href="#" className="hover:text-indigo-600 text-gray-700">
+              <Link href="https://discord.gg/wGbmTBUx" passHref={true}>
+                <a
+                  className="hover:text-indigo-600 text-gray-700 cursor-pointer"
+                  target="_blank"
+                >
+                  Join our Discord
+                </a>
+              </Link>
+              <a
+                href="mailto:ste@weareloot.com"
+                className="hover:text-indigo-600 text-gray-700"
+                target="_blank"
+              >
                 Contact
               </a>
             </div>
           </div>
           <div className="flex space-x-4 items-center">
-            <a href="#" className="text-gray-800 text-sm">
-              LOGIN
-            </a>
-            <a
-              href="#"
-              className="bg-indigo-600 px-4 py-2 rounded text-white hover:bg-indigo-500 text-sm"
-            >
-              SIGNUP
-            </a>
+            <Link href="/login">
+              <a className="hover:text-indigo-600 text-gray-700 cursor-pointer text-sm font-bold">
+                LOGIN
+              </a>
+            </Link>
+            <Link href="/signUp">
+              <a className="bg-indigo-600 px-4 py-2 rounded text-white hover:bg-indigo-500 text-sm">
+                SIGNUP
+              </a>
+            </Link>
           </div>
         </div>
       </div>
