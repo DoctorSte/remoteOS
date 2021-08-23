@@ -17,7 +17,6 @@ export default function Form() {
         <h1 className="font-bold text-3xl mb-5">Contact</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
-            className="border"
             type="text"
             className="w-full border border-gray-300 py-2 pl-3 rounded mt-2 outline-none focus:ring-indigo-600 :ring-indigo-600"
             placeholder="First name"
@@ -57,7 +56,7 @@ export default function Form() {
 
           <input
             type="submit"
-            className=" w-full mt-4 flex justify-center px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all"
+            className="w-full mt-4 flex justify-center px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all"
             value="Send"
           />
         </form>
