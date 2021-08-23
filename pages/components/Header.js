@@ -25,6 +25,7 @@ export default function Navbar() {
                 <a
                   className="hover:text-indigo-600 text-gray-700 cursor-pointer"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Join our Discord
                 </a>
@@ -33,6 +34,7 @@ export default function Navbar() {
                 href="mailto:ste@weareloot.com"
                 className="hover:text-indigo-600 text-gray-700"
                 target="_blank"
+                rel="noreferrer"
               >
                 Contact
               </a>
