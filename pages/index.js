@@ -4,13 +4,15 @@ import "tailwindcss/tailwind.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Card from "./components/card";
+import Footer from "./components/footer";
+import Form from "./components/form";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t-2 items-center px-10 py-0 lg:p-48 lg:py-20">
+      {/* <section className="grid grid-cols-1 md:grid-cols-2 gap-4 border-t-2 items-center px-10 py-0 lg:p-48 lg:py-20">
         <div className="mt-20 lg:mt-0 text-center lg:text-left ">
           <h1 className="text-3xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-green-300 via-blue-500 to-purple-600">
             The complete toolkit to manage remote-first companies that scale
@@ -47,14 +49,30 @@ export default function Home() {
             height={884}
           />
         </div>
-      </section>
+      </section> */}
       <Hero />
-      <section className="grid grid-cols-4 gap-0 items-center px-10 lg:px-48 text-center">
-        <Card title="Card title" content="Card content" />
-        <Card title="Card title" content="Card content" />
-        <Card title="Card title" content="Card content" />
-        <Card title="Card title" content="Card content" />
-      </section>
+
+      <Card />
+      <main className="relative h-96 w-screen z-0">
+        <img
+          src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+          alt="main background image"
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        />
+        <div className="absolute inset-0 flex justify-center items-center">
+          <div className="w-full max-w-4xl text-center bg-gray-50 p-10 rounded-2xl">
+            <h1 className=" text-3xl sm:text-4xl font-extrabold">
+              Remote work is here to stay.{" "}
+              <span className="text-yellow-400">Stay prepared!</span>
+            </h1>
+            <p className="mt-6 text-lg sm:text-xl">
+              Manage your remote team and scale fast using RemoteOS
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <Footer />
     </>
   );
 }
