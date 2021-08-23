@@ -3,6 +3,7 @@ import Image from "next/image";
 import "tailwindcss/tailwind.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Card from "./components/card";
 
 export default function Home() {
   return (
@@ -48,6 +49,12 @@ export default function Home() {
         </div>
       </section>
       <Hero />
+      <section className="grid grid-cols-4 gap-0 items-center px-10 lg:px-48 text-center">
+        <Card title="Card title" content="Card content" />
+        <Card title="Card title" content="Card content" />
+        <Card title="Card title" content="Card content" />
+        <Card title="Card title" content="Card content" />
+      </section>
     </>
   );
 }
