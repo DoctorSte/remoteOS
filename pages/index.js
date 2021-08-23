@@ -60,14 +60,33 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover z-0"
         />
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="w-full max-w-4xl text-center bg-gray-50 p-10 rounded-2xl">
+          <div className="w-full max-w-xl text-center bg-gray-50 p-10 rounded-2xl m-6">
             <h1 className=" text-3xl sm:text-4xl font-extrabold">
-              Remote work is here to stay.{" "}
-              <span className="text-yellow-400">Stay prepared!</span>
+              Remote work is here. <br />
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+                Stay prepared!
+              </span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl">
-              Manage your remote team and scale fast using RemoteOS
+              Manage your remote team and scale fast using RemoteOS.
             </p>
+            <button className="mt-4 inline-flex px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all">
+              Sign up
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 pl-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </main>

@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -7,15 +8,19 @@ export default function Navbar() {
         <div className="flex justify-between h-20 px-20  items-center">
           <div className="flex items-center space-x-8">
             <h1 className="text-xl lg:text-2xl font-bold cursor-pointer mr-4">
-              RemoteOS
+              <Link href="/">RemoteOS</Link>
             </h1>
             <div className="hidden md:flex justify-around space-x-4">
-              <a href="#" className="hover:text-indigo-600 text-gray-700">
-                Features
-              </a>
-              <a href="#" className="hover:text-indigo-600 text-gray-700">
-                About
-              </a>
+              <Link href="/features">
+                <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
+                  Features
+                </div>
+              </Link>
+              <Link href="/about">
+                <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
+                  About
+                </div>
+              </Link>
               <a href="#" className="hover:text-indigo-600 text-gray-700">
                 Join our Discord
               </a>

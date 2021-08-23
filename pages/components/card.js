@@ -3,8 +3,8 @@ import "tailwindcss/tailwind.css";
 export default function Card() {
   return (
     <div>
-      <section className="grid md:grid-flow-col md:grid-cols-4 gap-4 px-10 lg:px-48 text-center ">
-        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5">
+      <section className="grid md:grid-flow-col md:grid-cols-4 gap-4 px-10 lg:px-48 text-center mb-16">
+        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5 hover:bg-gray-100 transition-all duration-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-6 w-6 mb-3"
@@ -26,7 +26,7 @@ export default function Card() {
           </p>
         </div>
 
-        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5">
+        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5 hover:bg-gray-100 transition-all duration-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-6 w-6 mb-3"
@@ -48,7 +48,7 @@ export default function Card() {
           </p>
         </div>
 
-        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5">
+        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5 hover:bg-gray-100 transition-all duration-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-6 w-6 mb-3"
@@ -72,7 +72,7 @@ export default function Card() {
           </p>
         </div>
 
-        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5">
+        <div className="border-gray-200 border shadow-md rounded-lg p-6 mb-5 hover:bg-gray-100 transition-all duration-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 w-full mb-3"
