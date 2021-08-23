@@ -57,7 +57,8 @@ export default function Form() {
 
           <input
             type="submit"
-            className="mt-4 inline-flex px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all"
+            className=" w-full mt-4 flex justify-center px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all"
+            value="Send"
           />
         </form>
       </div>
