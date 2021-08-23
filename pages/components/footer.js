@@ -19,6 +19,7 @@ export default function Footer() {
           <a
             className="hover:text-indigo-600 text-gray-700 cursor-pointer"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Join our Discord
           </a>
@@ -27,6 +28,7 @@ export default function Footer() {
           href="mailto:ste@weareloot.com"
           className="hover:text-indigo-600 text-gray-700"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Contact
         </a>

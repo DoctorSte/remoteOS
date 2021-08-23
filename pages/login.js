@@ -12,7 +12,7 @@ export default function Login() {
           <h1 className="font-bold text-3xl mb-5">Log in</h1>
           <form action="">
             <div className="mb-6">
-              <label for="name" className="block text-gray-800 font-bold">
+              <label htmlFor="name" className="block text-gray-800 font-bold">
                 Username
               </label>
               <input
@@ -25,7 +25,7 @@ export default function Login() {
             </div>
 
             <div>
-              <label for="email" className="block text-gray-800 font-bold">
+              <label htmlFor="email" className="block text-gray-800 font-bold">
                 Email:
               </label>
               <input

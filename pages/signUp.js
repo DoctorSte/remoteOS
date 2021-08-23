@@ -12,20 +12,20 @@ export default function SignUp() {
           <h1 className="font-bold text-3xl mb-5">Sign up</h1>
           <form action="">
             <div className="mb-6">
-              <label for="name" className="block text-gray-800 font-bold">
+              <label htmlFor="name" className="block text-gray-800 font-bold">
                 Name:
               </label>
               <input
                 type="text"
                 name="name"
                 id="name"
-                placeholder="Your name"
+                placeholder="Your Name"
                 className="w-full border border-gray-300 py-2 pl-3 rounded mt-2 outline-none focus:ring-indigo-600 :ring-indigo-600"
               />
             </div>
 
             <div>
-              <label for="email" className="block text-gray-800 font-bold">
+              <label htmlFor="email" className="block text-gray-800 font-bold">
                 Email:
               </label>
               <input
@@ -39,7 +39,7 @@ export default function SignUp() {
               <div>
                 <label
                   className="block text-gray-800 font-bold mt-8"
-                  for="forms-helpTextCode"
+                  htmlFor="forms-helpTextCode"
                 >
                   Password
                 </label>
