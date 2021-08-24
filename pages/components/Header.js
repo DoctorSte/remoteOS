@@ -32,7 +32,7 @@ export default function Navbar() {
               </Link>
               <Link href="/contact">
                 <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
-                  Contact
+                  Schedule a Demo
                 </div>
               </Link>
             </div>

@@ -58,14 +58,14 @@ export default function Home() {
         <img
           src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
           alt="main background image"
-          className="absolute inset-0 w-full h-full object-cover z-0"
+          className="absolute inset-0 w-full h-full object-cover z-0 "
         />
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="w-full max-w-xl text-center bg-gray-50 p-10 rounded-2xl m-6">
+          <div className="w-full max-w-xl text-center backdrop-filter border border-green-50 backdrop-brightness-125 backdrop-blur-md p-10 rounded-2xl m-6">
             <h1 className=" text-3xl sm:text-4xl font-extrabold">
               Remote work is here. <br />
               <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
-                Stay prepared!
+                Get Ready!
               </span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl">

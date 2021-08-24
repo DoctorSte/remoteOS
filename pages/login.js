@@ -1,8 +1,10 @@
 import "tailwindcss/tailwind.css";
 import Header from "./components/Header";
 import Footer from "./components/footer";
+import { useRouter } from "next/dist/client/router";
 
 export default function Login() {
+  const router = useRouter();
   return (
     <>
       <Header />
@@ -43,9 +45,13 @@ export default function Login() {
                 Forgot Password?
               </a>
             </div>
-            <butt className="cursor-pointer py-2 px-4 block mt-6 bg-indigo-500 text-white font-bold w-full text-center rounded">
+            <button
+              type="button"
+              onClick={() => router.push("/")}
+              className="cursor-pointer py-2 px-4 block mt-6 bg-indigo-500 text-white font-bold w-full text-center rounded"
+            >
               Login
-            </butt>
+            </button>
           </form>
         </div>
       </div>
