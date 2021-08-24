@@ -19,7 +19,9 @@ export default function Card() {
               d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
             />
           </svg>
-          <h3 className="text-xl font-bold mb-3">Manage your whole team</h3>
+          <h3 className="text-xl font-bold mb-3">
+            Manage remote team complexity
+          </h3>
           <p className="text-gray-500">
             See all your team members, create organisational structures, revise
             them on the go.
@@ -41,7 +43,9 @@ export default function Card() {
               d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
             />
           </svg>
-          <h3 className="text-xl font-bold mb-3">Monitor Goals and OKRs</h3>
+          <h3 className="text-xl font-bold mb-3">
+            Monitor Goals, OKRs and set up internal Feedback
+          </h3>
           <p className="text-gray-500">
             Set flexible goals for each department and monitor them in real
             time.

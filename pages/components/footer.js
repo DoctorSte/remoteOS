@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="flex justify-center items-center w-full p-7 gap-6">
+      <div className="flex justify-center items-center w-full p-10 gap-6 text-sm">
         <Link href="/features">
           <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
             Features

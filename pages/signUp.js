@@ -15,7 +15,7 @@ export default function SignUp() {
   const onSubmit = (data) => {
     console.log(JSON.stringify(data));
     fetch("/api/signUp", { method: "post", body: JSON.stringify(data) }).then(
-      router.push("/")
+      setTimeout(() => router.push("/"), 2000)
     );
   };
   console.log(errors, isSubmitSuccessful);
@@ -82,8 +82,8 @@ export default function SignUp() {
             </button>
 
             {isSubmitSuccessful && (
-              <div className="w-full bg-red-600 text-yellow-50 rounded-md p-5 ">
-                Signed up failed.
+              <div className="w-full bg-red-600 text-yellow-50 rounded-md p-5 mt-5">
+                Signed up failed. Try again later.
               </div>
             )}
           </form>
