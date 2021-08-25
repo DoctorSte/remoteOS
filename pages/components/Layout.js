@@ -79,4 +79,4 @@ export const Container = ({ children, style, ...rest }) => {
   );
 };
 
-export default null;
+export default Columns;
