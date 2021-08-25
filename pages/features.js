@@ -1,15 +1,15 @@
-import Head from "next/head";
 import Image from "next/image";
 import "tailwindcss/tailwind.css";
-import Header from "./components/Header";
-import Card from "./components/card";
+
+import Features from "./components/Features";
 import Footer from "./components/footer";
 import Link from "next/link";
+import Navbar from "./components/Navbar";
 
-export default function Features() {
+export default function featuresPage() {
   return (
     <>
-      <Header />
+      <Navbar />
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center px-10 py-0 lg:p-48 lg:py-20">
         <div className="mt-20 lg:mt-0 text-center lg:text-left">
@@ -33,10 +33,10 @@ export default function Features() {
           />
         </div>
       </section>
-      <Card />
+      <Features />
 
-      <section className="grid grid-cols-1 bg-gray-50 md:grid-cols-3 gap-6 justify-center items-center px-10 py-0 lg:px-96 lg:py-20 border-t">
-        <div className="col-span-2 ">
+      <section className="grid grid-cols-1 bg-gray-50 md:grid-cols-3 gap-6 justify-center items-center px-10 py-10 lg:px-96 lg:py-20 border-t">
+        <div className="text-center md:text-left col-span-2">
           <h2 className="font-bold text-4xl mb-6">Subscriptions Overview</h2>
           <p className="text-lg">
             Take charge of all company subscriptions <br />
@@ -55,10 +55,10 @@ export default function Features() {
         </div>
       </section>
 
-      <section className="grid grid-cols-1  md:grid-cols-3 gap-6 justify-center items-center px-10 py-0 lg:px-96 lg:py-20 border-t">
-        <div>
+      <section className="grid grid-cols-1  md:grid-cols-3 gap-6 justify-center items-center px-10 py-10 lg:px-96 lg:py-20 border-t">
+        <div className="order-last md:order-first">
           <Image
-            className="shadow-lg"
+            className="shadow-lg "
             src="/images/org.png"
             alt=""
             layout="responsive"
@@ -66,7 +66,7 @@ export default function Features() {
             height={377}
           />
         </div>
-        <div className="col-span-2 text-right ">
+        <div className="text-center md:text-right col-span-2">
           <h2 className="font-bold text-4xl mb-6">
             Manage your whole organisational structure
           </h2>
@@ -78,8 +78,8 @@ export default function Features() {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 bg-gray-50  md:grid-cols-3 gap-6 justify-center items-center px-10 py-0 lg:px-96 lg:py-20 border-t">
-        <div className="col-span-2 ">
+      <section className="grid grid-cols-1 bg-gray-50  md:grid-cols-3 gap-6 justify-center items-center px-10 py-10 lg:px-96 lg:py-20 border-t">
+        <div className="text-center md:text-left col-span-2">
           <h2 className="font-bold text-4xl mb-6">
             True Work From Home Management
           </h2>
@@ -100,8 +100,8 @@ export default function Features() {
         </div>
       </section>
 
-      <section className="grid grid-cols-1  md:grid-cols-3 gap-6 justify-center items-center px-10 py-0 lg:px-96 lg:py-20 border-t">
-        <div>
+      <section className="grid grid-cols-1  md:grid-cols-3 gap-6 justify-center items-center px-10 py-10 lg:px-96 lg:py-20 border-t">
+        <div className="order-last md:order-first">
           <Image
             className="shadow-lg"
             src="/images/inventory.png"
@@ -111,7 +111,7 @@ export default function Features() {
             height={238}
           />
         </div>
-        <div className="col-span-2 text-right ">
+        <div className="text-center md:text-right col-span-2">
           <h2 className="font-bold text-4xl mb-6">
             Track tech inventory and deploy new assets as your team grows
           </h2>
@@ -123,7 +123,7 @@ export default function Features() {
         </div>
       </section>
 
-      <section className="relative h-screen w-screen z-0">
+      <section className="relative h-96 w-screen z-0">
         <img
           src="https://images.unsplash.com/photo-1616531770192-6eaea74c2456?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
           alt="main background image"

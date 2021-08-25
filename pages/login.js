@@ -1,13 +1,14 @@
 import "tailwindcss/tailwind.css";
-import Header from "./components/Header";
+
 import Footer from "./components/footer";
 import { useRouter } from "next/dist/client/router";
+import Navbar from "./components/Navbar";
 
 export default function Login() {
   const router = useRouter();
   return (
     <>
-      <Header />
+      <Navbar />
 
       <div className="flex justify-center items-center p-24">
         <div className="py-6 px-8 h-auto bg-white rounded shadow-xl max-w-sm border">

@@ -1,8 +1,9 @@
 import "tailwindcss/tailwind.css";
-import Header from "./components/Header";
+
 import Footer from "./components/footer";
 import { useRouter } from "next/dist/client/router";
 import { useForm } from "react-hook-form";
+import Navbar from "./components/Navbar";
 
 export default function SignUp() {
   const router = useRouter();
@@ -22,7 +23,7 @@ export default function SignUp() {
 
   return (
     <>
-      <Header />
+      <Navbar />
 
       <div className="flex justify-center items-center p-24">
         <div className="py-6 px-8 h-auto bg-white rounded shadow-xl max-w-sm border">

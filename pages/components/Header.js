@@ -1,7 +1,7 @@
 import "tailwindcss/tailwind.css";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <nav>
       <div className="container p-6 min-w-full">

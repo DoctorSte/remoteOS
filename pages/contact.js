@@ -1,12 +1,13 @@
 import "tailwindcss/tailwind.css";
-import Header from "./components/Header";
+
 import Footer from "./components/footer";
 import Form from "./components/form";
+import Navbar from "./components/Navbar";
 
 export default function Contact() {
   return (
     <>
-      <Header />
+      <Navbar />
 
       <Form />
 
