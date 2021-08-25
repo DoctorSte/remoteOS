@@ -1,6 +1,5 @@
 import Image from "next/image";
 import "tailwindcss/tailwind.css";
-import Header from "./components/Header";
 import { Columns, Box, Icon } from "./components/Layout";
 import Footer from "./components/footer";
 import Link from "next/dist/client/link";

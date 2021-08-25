@@ -6,17 +6,17 @@ export default function Footer() {
     <>
       <footer className="w-full flex items-center py-10 justify-center text-sm gap-5 flex-col">
         <div className="flex flex-row gap-5">
-          <Link href="/features">
+          <Link href="/features" passHref>
             <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
               Features
             </div>
           </Link>
-          <Link href="/about">
+          <Link href="/about" passHref>
             <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
               About
             </div>
           </Link>
-          <Link href="https://discord.gg/wGbmTBUx" passHref={true}>
+          <Link href="https://discord.gg/wGbmTBUx" passHref>
             <a
               className="hover:text-indigo-600 text-gray-700 cursor-pointer"
               target="_blank"
@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
           </Link>
           <a
-            href="mailto:ste@weareloot.com"
+            href="/contact"
             className="hover:text-indigo-600 text-gray-700"
             target="_blank"
             rel="noopener noreferrer"
