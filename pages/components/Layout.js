@@ -72,7 +72,7 @@ Button.defaultProps = {
 export const Container = ({ children, style, ...rest }) => {
   return (
     <section
-      className={`w-full p-6 inline-flex items-center justify-center gap-2 ${style}`}
+      className={`w-full p-6 block sm:inline-flex items-center justify-center gap-2 ${style}`}
     >
       {children}
     </section>
