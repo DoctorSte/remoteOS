@@ -25,14 +25,11 @@ export default function Footer() {
               Join our Discord
             </a>
           </Link>
-          <a
-            href="/contact"
-            className="hover:text-indigo-600 text-gray-700"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Contact
-          </a>
+          <Link href="/contact" passHref>
+            <div className="hover:text-indigo-600 text-gray-700 cursor-pointer">
+              Contact
+            </div>
+          </Link>
         </div>
         <div className="text-gray-400">All rights reserved @RemoteOS2021</div>
       </footer>
