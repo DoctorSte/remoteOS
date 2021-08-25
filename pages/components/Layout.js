@@ -78,3 +78,5 @@ export const Container = ({ children, style, ...rest }) => {
     </section>
   );
 };
+
+export default null;
