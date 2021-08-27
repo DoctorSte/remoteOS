@@ -65,7 +65,7 @@ export default function About() {
         </Box>
       </Columns>
 
-      <Columns border="2">
+      <Columns columns="1" border="2">
         <div className="col-span-2 text-center">
           <h2 className="font-bold text-4xl my-6">
             Be part of the Remote Work Revolution.
