@@ -10,7 +10,7 @@ export const Columns = ({
 }) => {
   return (
     <section
-      className={`grid  md:grid-cols-${columns} grid-cols-1 items-${align} border-t-${border} ${background} gap-4 px-10 py-10 lg:px-48 w-full `}
+      className={`grid grid-cols-1 md:grid-cols-${columns} items-${align} border-t-${border} ${background} gap-4 px-10 py-10 lg:px-48 w-full `}
       {...rest}
     >
       {children}
@@ -19,7 +19,7 @@ export const Columns = ({
 };
 
 Columns.defaultProps = {
-  columns: "4",
+  columns: "1",
   align: "center",
 };
 

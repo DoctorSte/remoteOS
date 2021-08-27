@@ -1,6 +1,6 @@
 import "tailwindcss/tailwind.css";
 import Hero from "./components/Hero";
-import Features from "./components/Features";
+import Features from "./components/featuresBoxes";
 import Footer from "./components/footer";
 import Link from "next/link";
 import { Button, Container } from "./components/Layout";

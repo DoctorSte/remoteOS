@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "tailwindcss/tailwind.css";
 
-import Features from "./components/Features";
+import Features from "./components/featuresBoxes";
 import Footer from "./components/footer";
 import Link from "next/link";
 import Navbar from "./components/Navbar";
