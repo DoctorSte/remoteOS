@@ -4,7 +4,7 @@ import { Columns, Box, Icon, Container } from "./Layout";
 export default function Features() {
   return (
     <>
-      <Columns columns="4" align="stretch">
+      <section className="grid md:grid-cols-4 grid-cols-1 gap-4 px-10 py-0 lg:px-48 w-full">
         <Box align="center">
           <Icon path="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
           <h3 className="text-xl font-bold my-3">
@@ -46,7 +46,7 @@ export default function Features() {
             startups of the future..
           </p>
         </Box>
-      </Columns>
+      </section>
     </>
   );
 }
