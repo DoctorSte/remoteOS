@@ -10,7 +10,7 @@ export const Columns = ({
 }) => {
   return (
     <section
-      className={`grid grid-cols-1 md:grid-cols-${columns} items-${align} border-t-${border} ${background} gap-4 items-start px-10 py-10 lg:px-48 w-full `}
+      className={`grid  md:grid-cols-${columns} grid-cols-1 items-${align} border-t-${border} ${background} gap-4 px-10 py-10 lg:px-48 w-full `}
       {...rest}
     >
       {children}
