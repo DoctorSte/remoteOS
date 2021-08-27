@@ -15,7 +15,7 @@ export default function About() {
           <h1 className="text-4xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-red-400 to-purple-600">
             We believe the future of work is remote.
           </h1>
-          <p className=" lg:text-xl md:font-bold p-4">
+          <p className=" lg:text-xl  py-4">
             Almost 90% of office workers are secretly planning to make a shift
             to a remote workplace.
             <br /> <br />

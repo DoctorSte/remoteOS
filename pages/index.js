@@ -25,15 +25,15 @@ export default function Home() {
       <section className="w-full h-3/4 bg-center bg-cover bg-fixed bg-background1">
         <div className=" flex justify-center items-center">
           <div className="my-40 w-full max-w-xl text-center backdrop-filter bg-gray-50 bg-opacity-50 border border-green-50 backdrop-brightness-200 backdrop-blur-md p-10 rounded-2xl m-6">
-            <h1 className=" text-xl sm:text-2xl font-bold">
-              Let's
+            <h2 className=" text-xl sm:text-2xl font-bold">
+              Let's build it together!
               <br />
               <span className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
-                Unlock remote work together!
+                Start using RemoteOS.
               </span>
-            </h1>
-            <p className="mt-6 text-lg sm:text-xl">
-              Give your team and yourself the tools to make remote work easy.
+            </h2>
+            <p className="mt-6 text-lg sm:text-lg">
+              Give yourself the tools to make remote work easy.
             </p>
             <Container>
               <Button link="/signUp" icon="M13 7l5 5m0 0l-5 5m5-5H6">
@@ -44,7 +44,7 @@ export default function Home() {
                 link="/contact"
                 icon="M13 7l5 5m0 0l-5 5m5-5H6"
               >
-                Schedule a demo
+                I want a demo
               </Button>
             </Container>
           </div>

@@ -25,7 +25,7 @@ export default function Navbar() {
         <>
           <div className="max-w-full mx-auto py-4 px-2 sm:px-6 lg:px-20 lg:py-8">
             <p className="fixed top-2 right-2 text-xs text-gray-400">
-              v.1.2 | closed beta
+              v.1.1 | closed alpha
             </p>
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
