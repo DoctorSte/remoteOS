@@ -12,10 +12,10 @@ export default function About() {
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center px-10 py-0 lg:p-48 lg:py-20">
         <div className="mt-20 lg:mt-0 text-center lg:text-left">
-          <h1 className="text-3xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-red-400 to-purple-600">
+          <h1 className="text-4xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-red-400 to-purple-600">
             We believe the future of work is remote.
           </h1>
-          <p className=" text-xl font-bold pt-4">
+          <p className=" lg:text-xl md:font-bold p-4">
             Almost 90% of office workers are secretly planning to make a shift
             to a remote workplace.
             <br /> <br />

@@ -10,7 +10,7 @@ export const Columns = ({
 }) => {
   return (
     <section
-      className={`grid grid-cols-1 lg:grid-cols-${columns} items-${align} border-t-${border} ${background} gap-4 items-start px-10 py-10 lg:px-48 w-full `}
+      className={`grid grid-cols-1 md:grid-cols-${columns} items-${align} border-t-${border} ${background} gap-4 items-start px-10 py-10 lg:px-48 w-full `}
       {...rest}
     >
       {children}
@@ -72,7 +72,7 @@ Button.defaultProps = {
 export const Container = ({ children, style, ...rest }) => {
   return (
     <section
-      className={`w-full p-6 block sm:inline-flex items-center justify-center gap-2 ${style}`}
+      className={`w-full p-6 block flex flex-wrap items-center justify-center gap-2 ${style}`}
     >
       {children}
     </section>

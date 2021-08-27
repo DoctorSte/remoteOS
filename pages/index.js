@@ -28,7 +28,7 @@ export default function Home() {
             <h1 className=" text-xl sm:text-2xl font-bold">
               Let's
               <br />
-              <span className=" text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+              <span className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
                 Unlock remote work together!
               </span>
             </h1>

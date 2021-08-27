@@ -15,7 +15,7 @@ export default function Form() {
   console.log(errors, isSubmitSuccessful);
 
   return (
-    <div className="flex justify-center items-center p-24">
+    <div className="flex justify-center items-center px-3 py-20">
       <div className="py-6 px-8 h-auto bg-white rounded shadow-xl max-w-sm border">
         <h1 className="font-bold text-3xl mb-5">Schedule a Demo</h1>
         <p>Contact us to schedule a demo:</p>

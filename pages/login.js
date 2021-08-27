@@ -10,8 +10,8 @@ export default function Login() {
     <>
       <Navbar />
 
-      <div className="flex justify-center items-center p-24">
-        <div className="py-6 px-8 h-auto bg-white rounded shadow-xl max-w-sm border">
+      <div className="flex justify-center items-center px-3 py-20">
+        <div className="p-8 h-auto bg-white rounded shadow-xl max-w-sm border">
           <h1 className="font-bold text-3xl mb-5">Log in</h1>
           <form action="">
             <div className="mb-6">
