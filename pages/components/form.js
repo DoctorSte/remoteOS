@@ -63,6 +63,9 @@ export default function Form() {
             className=" w-full mt-4 flex justify-center p-5 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all"
             value="Send"
           />
+          <p className="text-xs text-gray-400 text-center py-1">
+            We will get back with available times.
+          </p>
 
           {isSubmitSuccessful && (
             <div className="w-full bg-green-600 text-yellow-50 rounded-md p-5 ">

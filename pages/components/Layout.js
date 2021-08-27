@@ -19,7 +19,7 @@ export const Columns = ({
 };
 
 Columns.defaultProps = {
-  columns: "2",
+  columns: "4",
   align: "center",
 };
 

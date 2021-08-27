@@ -13,7 +13,7 @@ export default function featuresPage() {
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center px-10 py-0 lg:p-48 lg:py-20">
         <div className="mt-20 lg:mt-0 text-center lg:text-left">
-          <h1 className="text-3xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-green-300 via-blue-500 to-purple-600">
+          <h1 className="text-4xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-tl from-green-300 via-blue-500 to-purple-600">
             All-in-one management for your remote company
           </h1>
           <p className=" text-xl pt-4">
@@ -131,13 +131,10 @@ export default function featuresPage() {
         />
         <div className="absolute inset-0 flex justify-center items-center ">
           <div className="max-w-xl text-center backdrop-filter bg-gray-50 bg-opacity-80 border border-green-50 backdrop-brightness-200 backdrop-blur-md p-10 rounded-2xl m-6">
-            <h2 className=" text-4xl sm:text-4xl font-extrabold">
-              Let's build
-              <br />
-              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
-                Remote First companies together.
-              </span>
-            </h2>
+            <p className=" font-extrabold">Let's build</p>
+            <h3 className="text-4xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+              Remote First companies together.
+            </h3>
 
             <Link href="/signUp" passHref>
               <button className="mt-4 inline-flex px-5 py-3 rounded-xl text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800 active:bg-grey-900 focus:outline-none border-4 border-white focus:border-purple-200 transition-all">
