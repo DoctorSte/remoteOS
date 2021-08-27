@@ -22,7 +22,7 @@ export default function Home() {
         </Button>
       </Container>
 
-      <section className="w-full h-3/4 bg-center bg-cover bg-fixed bg-background1">
+      <section className="w-full h-3/4 bg-center bg-cover lg:bg-fixed bg-background1">
         <div className="flex justify-center items-center">
           <div className="my-40 w-full max-w-xl text-center backdrop-filter bg-gray-50 bg-opacity-50 border border-green-50 backdrop-brightness-200 backdrop-blur-md p-10 rounded-2xl m-6">
             <p className=" text-xl sm:text-2xl font-bold">
