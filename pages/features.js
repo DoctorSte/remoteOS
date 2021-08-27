@@ -131,7 +131,7 @@ export default function featuresPage() {
         />
         <div className="absolute inset-0 flex justify-center items-center ">
           <div className="max-w-xl text-center backdrop-filter bg-gray-50 bg-opacity-80 border border-green-50 backdrop-brightness-200 backdrop-blur-md p-10 rounded-2xl m-6">
-            <h2 className=" text-3xl sm:text-4xl font-extrabold">
+            <h2 className=" text-4xl sm:text-4xl font-extrabold">
               Let's build
               <br />
               <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">

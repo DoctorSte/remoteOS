@@ -19,7 +19,8 @@ export const Columns = ({
 };
 
 Columns.defaultProps = {
-  columns: "grid-cols-1",
+  columns: "2",
+  align: "center",
 };
 
 export const Box = ({ children, align, ...rest }) => {
